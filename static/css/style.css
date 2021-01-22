@@ -31,13 +31,16 @@ header .logo img {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
-  height: 40rem;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 5rem;
 }
 
@@ -61,6 +64,17 @@ header .logo img {
   font-weight: 700;
   padding: 1rem 8rem;
   margin-top: 3rem;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social img {
+  width: 2rem;
+  margin: 1rem;
 }
 
 .chart_and_release {

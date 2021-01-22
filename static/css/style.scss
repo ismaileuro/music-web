@@ -31,9 +31,10 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
-  height: 40rem;
+  height: 100vh;
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   padding: 5rem;
 
   .hero_text {
@@ -54,6 +55,13 @@ header {
       padding: 1rem 8rem;
       margin-top: 3rem;
     }
+  }
+}
+.social {
+  display: flex;
+  img {
+    width: 2rem;
+    margin: 1rem;
   }
 }
 
@@ -88,7 +96,7 @@ header {
       height: 2rem;
       display: flex;
       margin: 1rem;
-      
+
       .bar {
         width: 15rem;
         height: 100%;
